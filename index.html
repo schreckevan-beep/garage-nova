@@ -66,10 +66,14 @@
       </section>
 
       <section class="contact section" id="contact">
-        <div class="contact-card reveal"><p class="eyebrow light"><span></span> Parlons de votre véhicule</p><h2>Une question ?<br /><em>On vous répond.</em></h2><a class="button button-primary" href="#contact">Prendre rendez-vous <b>→</b></a></div>
+        <div class="contact-card reveal"><p class="eyebrow light"><span></span> Parlons de votre véhicule</p><h2>Une question ?<br /><em>On vous répond.</em></h2><button class="button button-primary appointment-button" type="button" data-demo-modal>Prendre rendez-vous <b>→</b></button></div>
         <div class="contact-details reveal delay-1"><div><small>TÉLÉPHONE</small><a href="tel:+330100000000">01 00 00 00 00</a></div><div><small>EMAIL</small><a href="mailto:bonjour@garage-nova.demo">bonjour@garage-nova.demo</a></div><div><small>HORAIRES</small><p>Lun — Ven · 08:00 — 18:30<br />Sam · 09:00 — 12:00</p></div><p class="fiction">Toutes les coordonnées de cette page sont fictives et utilisées à titre de démonstration.</p></div>
       </section>
     </main>
+    <div class="demo-modal" role="dialog" aria-modal="true" aria-labelledby="demo-modal-title" hidden>
+      <div class="demo-modal__backdrop" data-modal-close></div>
+      <div class="demo-modal__panel"><button class="demo-modal__close" type="button" aria-label="Fermer" data-modal-close>×</button><p class="eyebrow"><span></span> Garage Nova</p><h2 id="demo-modal-title">Démonstration</h2><p>Sur un site client, ce bouton peut être relié à votre système de prise de rendez-vous ou de contact.</p><button class="button button-primary" type="button" data-modal-close>Compris <b>→</b></button></div>
+    </div>
     <footer><a class="brand" href="#accueil"><span>N</span> GARAGE NOVA</a><p>Site de démonstration · 2026</p><a href="#accueil">Retour en haut ↑</a></footer>
     <script src="script.js"></script>
   </body>
