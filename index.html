@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Garage Nova — entretien, réparation et diagnostic automobile." />
+    <title>Garage Nova — L'automobile, simplement bien entretenue</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#accueil" aria-label="Garage Nova — accueil"><span>N</span> GARAGE NOVA</a>
+      <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false"><i></i><i></i></button>
+      <nav class="main-nav" aria-label="Navigation principale">
+        <a href="#services">Services</a><a href="#atelier">L'atelier</a><a href="#avis">Avis</a><a href="#contact">Contact</a>
+      </nav>
+      <a class="header-cta" href="#contact">Prendre rendez-vous <b>↗</b></a>
+    </header>
+
+    <main>
+      <section class="hero" id="accueil">
+        <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span> Atelier automobile indépendant</p>
+          <h1>Votre voiture.<br /><em>Notre expertise.</em></h1>
+          <p class="hero-text">Entretien, réparation et diagnostic automobile. Un accompagnement clair, un travail soigné, sans mauvaise surprise.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#contact">Prendre rendez-vous <b>→</b></a><a class="text-link" href="#services">Découvrir nos services <b>↓</b></a></div>
+        </div>
+        <div class="hero-visual reveal delay-1" aria-hidden="true">
+          <div class="hero-card-tag">NOVA / 01</div>
+          <div class="car-art">
+            <svg viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg"><path class="car-fill" d="M105 308c17-43 58-87 113-100l97-24c38-57 88-90 160-90h85c62 0 125 26 169 73l56 60c37 7 62 31 71 71l8 37H90l15-27Z"/><path class="car-line" d="M105 308c17-43 58-87 113-100l97-24c38-57 88-90 160-90h85c62 0 125 26 169 73l56 60c37 7 62 31 71 71l8 37H90l15-27Z"/><path class="car-line fine" d="M315 184h356M405 184l44-86M630 184l-37-82M747 230H619l-52 61H233l-44-58H104M286 252h228"/><circle class="wheel" cx="239" cy="334" r="58"/><circle class="hub" cx="239" cy="334" r="24"/><circle class="wheel" cx="644" cy="334" r="58"/><circle class="hub" cx="644" cy="334" r="24"/><path class="accent" d="M707 227h60l19 34h-85"/></svg>
+          </div>
+          <div class="visual-note"><span class="note-dot"></span><div><small>ÉTABLI À DEMO-VILLE</small><strong>Depuis 2012</strong></div></div>
+          <div class="visual-number">01</div>
+        </div>
+        <div class="hero-bottom"><span>FAITES CONFIANCE À L'ESSENTIEL</span><span class="scroll-hint">DÉFILER <i></i></span></div>
+      </section>
+
+      <section class="services section" id="services">
+        <div class="section-top reveal"><p class="eyebrow"><span></span> Nos savoir-faire</p><h2>Tout ce qu’il faut<br />pour <em>rouler serein.</em></h2><p>De l’entretien régulier à la recherche de panne, notre atelier prend soin de l’essentiel.</p></div>
+        <div class="service-grid">
+          <article class="service-card reveal"><div class="service-index">01</div><div class="service-icon oil-icon">✦</div><h3>Entretien</h3><p>Révisions, vidanges et contrôles périodiques adaptés à votre véhicule.</p><a href="#contact" aria-label="Prendre rendez-vous pour un entretien">→</a></article>
+          <article class="service-card featured reveal delay-1"><div class="service-index">02</div><div class="service-icon">◒</div><h3>Freinage</h3><p>Contrôle et remplacement des plaquettes, disques et liquides de frein.</p><a href="#contact" aria-label="Prendre rendez-vous pour le freinage">→</a></article>
+          <article class="service-card reveal delay-2"><div class="service-index">03</div><div class="service-icon tire-icon">◉</div><h3>Pneus</h3><p>Montage, équilibrage et conseils pour garder une bonne adhérence.</p><a href="#contact" aria-label="Prendre rendez-vous pour les pneus">→</a></article>
+          <article class="service-card reveal delay-3"><div class="service-index">04</div><div class="service-icon">⌁</div><h3>Diagnostic</h3><p>Lecture électronique et recherche précise des anomalies de votre auto.</p><a href="#contact" aria-label="Prendre rendez-vous pour un diagnostic">→</a></article>
+        </div>
+      </section>
+
+      <section class="atelier section" id="atelier">
+        <div class="atelier-panel">
+          <div class="atelier-copy reveal"><p class="eyebrow light"><span></span> Notre engagement</p><h2>Un garage qui<br /><em>vous parle clair.</em></h2><p>Nous privilégions la transparence à chaque étape. Vous savez ce qui est fait, pourquoi, et à quel prix — avant toute intervention.</p><a class="button button-light" href="#contact">Échanger avec l’atelier <b>→</b></a></div>
+          <div class="values reveal delay-1"><div><strong>01</strong><h3>Juste nécessaire</h3><p>Pas de prestation superflue : seulement ce qui est utile à votre véhicule.</p></div><div><strong>02</strong><h3>Devis expliqué</h3><p>Chaque intervention est détaillée dans un langage simple et accessible.</p></div><div><strong>03</strong><h3>Qualité durable</h3><p>Des pièces fiables et une exigence constante dans chaque geste.</p></div></div>
+        </div>
+      </section>
+
+      <section class="reviews section" id="avis">
+        <div class="reviews-heading reveal"><p class="eyebrow"><span></span> Ils en parlent</p><h2>La confiance,<br /><em>ça se gagne.</em></h2><p class="demo-note">AVIS CLIENTS FICTIFS — CONTENU DE DÉMONSTRATION</p></div>
+        <div class="review-list">
+          <figure class="review reveal"><blockquote>“ Enfin un garage où l’on prend le temps d’expliquer. Accueil impeccable et intervention très propre. ”</blockquote><figcaption><span>ML</span><div><strong>Marie L.</strong><small>Entretien annuel</small></div><b>★★★★★</b></figcaption></figure>
+          <figure class="review reveal delay-1"><blockquote>“ Réactifs, honnêtes, et le devis a été respecté au centime près. Je recommande sans hésiter. ”</blockquote><figcaption><span>TD</span><div><strong>Thomas D.</strong><small>Réparation freinage</small></div><b>★★★★★</b></figcaption></figure>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div class="contact-card reveal"><p class="eyebrow light"><span></span> Parlons de votre véhicule</p><h2>Une question ?<br /><em>On vous répond.</em></h2><a class="button button-primary" href="mailto:bonjour@garage-nova.demo">Prendre rendez-vous <b>→</b></a></div>
+        <div class="contact-details reveal delay-1"><div><small>TÉLÉPHONE</small><a href="tel:+330100000000">01 00 00 00 00</a></div><div><small>EMAIL</small><a href="mailto:bonjour@garage-nova.demo">bonjour@garage-nova.demo</a></div><div><small>HORAIRES</small><p>Lun — Ven · 08:00 — 18:30<br />Sam · 09:00 — 12:00</p></div><p class="fiction">Toutes les coordonnées de cette page sont fictives et utilisées à titre de démonstration.</p></div>
+      </section>
+    </main>
+    <footer><a class="brand" href="#accueil"><span>N</span> GARAGE NOVA</a><p>Site de démonstration · 2026</p><a href="#accueil">Retour en haut ↑</a></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
